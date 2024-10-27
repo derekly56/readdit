@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "platform-api"
+version = "0.1.0"
+description = ""
+authors = ["Derek Ly <derek.ly28@gmail.com>"]
+readme = "README.md"
+package-mode=false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlmodel = "^0.0.22"
+ruff = "^0.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,6 @@
+# Packages
+.ruff_cache
+
+# Virtual environments
+.venv
+test-env
